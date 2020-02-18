@@ -23,21 +23,25 @@ public class PathDrawing : MonoBehaviour
 
     void OnCollisionEnter(Collision obj)
     {
+        // AND if trigger is pressed & released
+        
+            // AND if point limit is not reached
+        
+            // AND the object the controller has collided with is one of our points
         if (obj.gameObject.CompareTag("anchorPoint"))
         {
-            // if limit is not yet reached...
-
-            // ...add to an array for drawing the live line later
-            
-            // show anchorpoint (change shader):
-            // if first object in array show as green
-            
-            // if last, show as red
-            
-            // otherwise show orange
-            
-            // run draw 
+          // get obj.transform and store as vector3
+          
+          // add node to the current spline with this vector3
+          
+          // get obj's name (and parent) as a string
+          
+          // add to array of strings for exporting as CSV later
             
         }
+        
+        // Otherwise (If the point limit IS reached)
+        
+        // make a new spline
     }
 }
