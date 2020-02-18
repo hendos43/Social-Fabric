@@ -45,7 +45,7 @@ public class ControlCollider : MonoBehaviour
         Vector3 dist = target_2.position - target_1.position;
         transform.position = (dist * 0.5f) + target_1.position;
 
-       // transform.localScale = new Vector3(dist.x, dist.y, dist.z);
+        // transform.localScale = new Vector3(dist.x, dist.y, dist.z);
 
         Vector3 a = target_1.position;
         Vector3 b = target_2.position;
@@ -63,20 +63,24 @@ public class ControlCollider : MonoBehaviour
         transform.LookAt(perp);
 */
 
-        Vector3 middle = (target_1.up + target_2.up).normalized; // this axis will not be totally respected in the final rotation, but its useful as a guideline
-        Vector3 from_to = target_2.position - target_1.position; // this will be the Z axis, connecting the positions of two controllers
-        
+        Vector3
+            middle = (target_1.up + target_2.up)
+                .normalized; // this axis will not be totally respected in the final rotation, but its useful as a guideline
+        Vector3
+            from_to = target_2.position -
+                      target_1.position; // this will be the Z axis, connecting the positions of two controllers
+
         transform.localRotation = Quaternion.LookRotation(from_to, middle);
-        
-        transform.localScale = new Vector3(5, 0.001f, from_to.magnitude);    
-        
-        Debug.DrawRay(transform.position, middle*10f, Color.yellow);
-        Debug.DrawRay(transform.position, from_to*10f, Color.blue);
-        Debug.DrawRay(transform.position, transform.up*10f, Color.green);
+
+        transform.localScale = new Vector3(5, 0.001f, from_to.magnitude);
+
+        Debug.DrawRay(transform.position, middle * 10f, Color.yellow);
+        Debug.DrawRay(transform.position, from_to * 10f, Color.blue);
+        Debug.DrawRay(transform.position, transform.up * 10f, Color.green);
         // This aligns the object's Z axis to the desored direction
-        
-        
-       // transform.localScale = 
+
+
+        // transform.localScale = 
         //
         // if (self) target_1 = transform;
         //
