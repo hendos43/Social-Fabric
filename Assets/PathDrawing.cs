@@ -27,15 +27,20 @@ public class PathDrawing : MonoBehaviour
 
     void OnCollisionEnter(Collision obj)
     {
-        // AND if trigger is pressed & released
-        
-        // If the point limit is reached or 0
+        //MAKE NEW SPLINE
+        // If the point limit is reached or 0 (or timer is more than 2 mins)
         
         // make a new spline
         spline = GetComponent<SplineMesh.Spline>();
         
         // starting node set past zero as zero index is reserved for profile for extrusion
         currentNode = spline.nodes[1];
+        
+        
+        
+        // AND if trigger is pressed & released
+        
+
 
         // if the object the controller has collided with is one of our points
         if (obj.gameObject.CompareTag("anchorPoint")) {
