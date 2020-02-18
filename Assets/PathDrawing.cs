@@ -5,9 +5,6 @@ using UnityEngine;
 public class PathDrawing : MonoBehaviour
 {
     
-    public Transform controller;
-    public GameObject[] pointArray;
-
     private SplineMesh.Spline spline;
     private SplineMesh.SplineNode currentNode, prevNode, startNode;
     private Vector3 currentCollider;
