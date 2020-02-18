@@ -25,6 +25,7 @@ public class PathDrawing : MonoBehaviour
     void OnCollisionEnter(Collision obj)
     {
         //MAKE NEW SPLINE
+         if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) == true)
         // If the point limit is reached or 0 (or timer is more than 2 mins)
         
         // make a new spline
