@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PathDrawing : MonoBehaviour
 {
+    GameObject newSpline;
+
     private SplineMesh.Spline spline;
     private SplineMesh.SplineNode currentNode, prevNode, startNode;
     private Vector3 currentCollider;
@@ -34,11 +36,18 @@ public class PathDrawing : MonoBehaviour
         {
             if (buttonPressed == true)
             {
-                // make a new spline (?)
-                spline = GetComponent<SplineMesh.Spline>();
+                //make a new GameObject
+                newSpline = new GameObject("New Spline");
+                newSpline.AddComponent<SplineMesh.Spline>();
+
+                // add the spline script to that GameObject
+                spline = newSpline.GetComponent<SplineMesh.Spline>();
 
                 // starting node set past zero as zero index is reserved for profile for extrusion
                 currentNode = spline.nodes[1];
+
+                // initialise start/prev nodes
+                startNode = prevNode = spline.nodes[0];
             }
         }
         else
@@ -66,4 +75,3 @@ public class PathDrawing : MonoBehaviour
         }
     }
 }
-    
