@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 30699576}
   - component: {fileID: 30699575}
   m_Layer: 0
-  m_Name: Sphere (7)
+  m_Name: 7
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 100625968}
   - component: {fileID: 100625967}
   m_Layer: 0
-  m_Name: Sphere (9)
+  m_Name: 9
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -320,7 +320,7 @@ GameObject:
   - component: {fileID: 121501471}
   - component: {fileID: 121501470}
   m_Layer: 0
-  m_Name: Sphere (5)
+  m_Name: 5
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 141155990}
   - component: {fileID: 141155989}
   m_Layer: 0
-  m_Name: Sphere (3)
+  m_Name: 3
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -506,7 +506,7 @@ GameObject:
   - component: {fileID: 163750972}
   - component: {fileID: 163750971}
   m_Layer: 0
-  m_Name: Sphere (8)
+  m_Name: 8
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5360,7 +5360,7 @@ GameObject:
   - component: {fileID: 218803497}
   - component: {fileID: 218803496}
   m_Layer: 0
-  m_Name: Sphere (7)
+  m_Name: 7
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5453,7 +5453,7 @@ GameObject:
   - component: {fileID: 247212224}
   - component: {fileID: 247212223}
   m_Layer: 0
-  m_Name: Sphere (3)
+  m_Name: 3
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5546,7 +5546,7 @@ GameObject:
   - component: {fileID: 271378667}
   - component: {fileID: 271378666}
   m_Layer: 0
-  m_Name: Sphere (2)
+  m_Name: 2
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5718,7 +5718,7 @@ GameObject:
   - component: {fileID: 328162579}
   - component: {fileID: 328162578}
   m_Layer: 0
-  m_Name: Sphere (9)
+  m_Name: 9
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5931,7 +5931,7 @@ GameObject:
   - component: {fileID: 453928234}
   - component: {fileID: 453928233}
   m_Layer: 0
-  m_Name: Sphere (9)
+  m_Name: 9
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6310,7 +6310,7 @@ GameObject:
   - component: {fileID: 518109784}
   - component: {fileID: 518109783}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: 1
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6403,7 +6403,7 @@ GameObject:
   - component: {fileID: 686379887}
   - component: {fileID: 686379886}
   m_Layer: 0
-  m_Name: Sphere (4)
+  m_Name: 4
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6496,7 +6496,7 @@ GameObject:
   - component: {fileID: 772497534}
   - component: {fileID: 772497533}
   m_Layer: 0
-  m_Name: Sphere (6)
+  m_Name: 6
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6704,7 +6704,7 @@ GameObject:
   - component: {fileID: 787593898}
   - component: {fileID: 787593897}
   m_Layer: 0
-  m_Name: Sphere (6)
+  m_Name: 6
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6891,7 +6891,7 @@ GameObject:
   - component: {fileID: 797701211}
   - component: {fileID: 797701210}
   m_Layer: 0
-  m_Name: Sphere (3)
+  m_Name: 3
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6984,7 +6984,7 @@ GameObject:
   - component: {fileID: 862000012}
   - component: {fileID: 862000011}
   m_Layer: 0
-  m_Name: Sphere (5)
+  m_Name: 5
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7510,7 +7510,7 @@ GameObject:
   - component: {fileID: 1033365094}
   - component: {fileID: 1033365093}
   m_Layer: 0
-  m_Name: Sphere (5)
+  m_Name: 5
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7603,7 +7603,7 @@ GameObject:
   - component: {fileID: 1087896485}
   - component: {fileID: 1087896484}
   m_Layer: 0
-  m_Name: Sphere (8)
+  m_Name: 8
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7696,7 +7696,7 @@ GameObject:
   - component: {fileID: 1162811991}
   - component: {fileID: 1162811990}
   m_Layer: 0
-  m_Name: Sphere (4)
+  m_Name: 4
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7854,7 +7854,7 @@ GameObject:
   - component: {fileID: 1258070972}
   - component: {fileID: 1258070971}
   m_Layer: 0
-  m_Name: Sphere (7)
+  m_Name: 7
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7947,7 +7947,7 @@ GameObject:
   - component: {fileID: 1280057174}
   - component: {fileID: 1280057173}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: 1
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8040,7 +8040,7 @@ GameObject:
   - component: {fileID: 1346414885}
   - component: {fileID: 1346414884}
   m_Layer: 0
-  m_Name: Sphere (2)
+  m_Name: 2
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8133,7 +8133,7 @@ GameObject:
   - component: {fileID: 1379476345}
   - component: {fileID: 1379476344}
   m_Layer: 0
-  m_Name: Sphere (2)
+  m_Name: 2
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8226,7 +8226,7 @@ GameObject:
   - component: {fileID: 1396074361}
   - component: {fileID: 1396074360}
   m_Layer: 0
-  m_Name: Sphere (4)
+  m_Name: 4
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8319,7 +8319,7 @@ GameObject:
   - component: {fileID: 1415526679}
   - component: {fileID: 1415526678}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: 1
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8835,7 +8835,7 @@ GameObject:
   - component: {fileID: 1562738846}
   - component: {fileID: 1562738845}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: 1
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8928,7 +8928,7 @@ GameObject:
   - component: {fileID: 1579907756}
   - component: {fileID: 1579907755}
   m_Layer: 0
-  m_Name: Sphere (8)
+  m_Name: 8
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9060,7 +9060,7 @@ GameObject:
   - component: {fileID: 1684619638}
   - component: {fileID: 1684619637}
   m_Layer: 0
-  m_Name: Sphere (7)
+  m_Name: 7
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9231,7 +9231,7 @@ GameObject:
   - component: {fileID: 1800596774}
   - component: {fileID: 1800596773}
   m_Layer: 0
-  m_Name: Sphere (8)
+  m_Name: 8
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9324,7 +9324,7 @@ GameObject:
   - component: {fileID: 1830188996}
   - component: {fileID: 1830188995}
   m_Layer: 0
-  m_Name: Sphere (2)
+  m_Name: 2
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9417,7 +9417,7 @@ GameObject:
   - component: {fileID: 1844012361}
   - component: {fileID: 1844012360}
   m_Layer: 0
-  m_Name: Sphere (4)
+  m_Name: 4
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9510,7 +9510,7 @@ GameObject:
   - component: {fileID: 1877433581}
   - component: {fileID: 1877433580}
   m_Layer: 0
-  m_Name: Sphere (6)
+  m_Name: 6
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9728,7 +9728,7 @@ GameObject:
   - component: {fileID: 1934046957}
   - component: {fileID: 1934046956}
   m_Layer: 0
-  m_Name: Sphere (5)
+  m_Name: 5
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9821,7 +9821,7 @@ GameObject:
   - component: {fileID: 1945167705}
   - component: {fileID: 1945167704}
   m_Layer: 0
-  m_Name: Sphere (3)
+  m_Name: 3
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9920,7 +9920,7 @@ GameObject:
   - component: {fileID: 1980714022}
   - component: {fileID: 1980714021}
   m_Layer: 0
-  m_Name: Sphere (9)
+  m_Name: 9
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10013,7 +10013,7 @@ GameObject:
   - component: {fileID: 2112654783}
   - component: {fileID: 2112654782}
   m_Layer: 0
-  m_Name: Sphere (6)
+  m_Name: 6
   m_TagString: anchorPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
