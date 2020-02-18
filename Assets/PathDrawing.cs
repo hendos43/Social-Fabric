@@ -24,18 +24,17 @@ public class PathDrawing : MonoBehaviour
 
     void OnCollisionEnter(Collision obj)
     {
-        //MAKE NEW SPLINE
+        //MAKE NEW SPLINE OR ADD TO EXISTING ONE WITH COLLIDING OBJECT
 #if OCULUS
          buttonPressed = OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger);
 #endif
 
+        // If the point limit is reached or 0 (or timer is more than 2 mins)
         if (spline.nodes.Count > 10 || spline.nodes.Count < 1)
         {
             if (buttonPressed == true)
             {
-                // If the point limit is reached or 0 (or timer is more than 2 mins)
-
-                // make a new spline
+                // make a new spline (?)
                 spline = GetComponent<SplineMesh.Spline>();
 
                 // starting node set past zero as zero index is reserved for profile for extrusion
@@ -49,15 +48,15 @@ public class PathDrawing : MonoBehaviour
                 // if the object the controller has collided with is one of our points
                 if (obj.gameObject.CompareTag("anchorPoint"))
                 {
-                    // get obj.transform and store as vector3 (direction helps for curve smoothing, not reqd, set same as position)
-                    currentNode.Position = currentCollider;
-                    currentNode.Direction = currentCollider;
+                    // get obj position and store as vector3 (direction helps for curve smoothing, not reqd, set same as position)
+                    // currentCollider = obj.transform.position;
+                    currentNode.Position = currentNode.Direction = obj.transform.position;
+                    // currentNode.Direction = obj.transform.position;
 
                     // add node to the current spline with this vector3
                     spline.AddNode(new SplineMesh.SplineNode(currentNode.Position, currentNode.Direction));
                     prevNode = currentNode; //setting the current node to be "prevNode"
                     currentNode = spline.nodes[spline.nodes.Count - 1]; //updating new node to be "currentNode"
-
 
                     // get obj's name (and parent) as a string
 
@@ -66,3 +65,5 @@ public class PathDrawing : MonoBehaviour
             }
         }
     }
+}
+    
