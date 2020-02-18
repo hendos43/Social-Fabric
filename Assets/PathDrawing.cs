@@ -8,6 +8,10 @@ public class PathDrawing : MonoBehaviour
     public Transform controller;
     public GameObject[] pointArray;
 
+    private SplineMesh.Spline spline;
+    private SplineMesh.SplineNode currentNode, prevNode, startNode;
+    private Vector3 currentCollider;
+
     
     // Start is called before the first frame update
     void Start()
@@ -25,14 +29,25 @@ public class PathDrawing : MonoBehaviour
     {
         // AND if trigger is pressed & released
         
-            // AND if point limit is not reached
+        // If the point limit is reached or 0
         
-            // AND the object the controller has collided with is one of our points
-        if (obj.gameObject.CompareTag("anchorPoint"))
-        {
-          // get obj.transform and store as vector3
+        // make a new spline
+        spline = GetComponent<SplineMesh.Spline>();
+        
+        // starting node set past zero as zero index is reserved for profile for extrusion
+        currentNode = spline.nodes[1];
+
+        // if the object the controller has collided with is one of our points
+        if (obj.gameObject.CompareTag("anchorPoint")) {
+          // get obj.transform and store as vector3 (direction helps for curve smoothing, not reqd, set same as position)
+          currentNode.Position = currentCollider;
+          currentNode.Direction = currentCollider;
           
           // add node to the current spline with this vector3
+          spline.AddNode(new SplineMesh.SplineNode(currentNode.Position, currentNode.Direction));
+          prevNode = currentNode; //setting the current node to be "prevNode"
+          currentNode = spline.nodes[spline.nodes.Count - 1]; //updating new node to be "currentNode"
+
           
           // get obj's name (and parent) as a string
           
@@ -40,8 +55,7 @@ public class PathDrawing : MonoBehaviour
             
         }
         
-        // Otherwise (If the point limit IS reached)
-        
-        // make a new spline
+   
+
     }
 }
