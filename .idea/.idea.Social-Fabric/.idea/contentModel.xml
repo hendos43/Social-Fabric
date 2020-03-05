@@ -29,6 +29,7 @@
         <e p="ArduinoData.cs" t="Include" />
         <e p="CollisionTest.cs" t="Include" />
         <e p="GeneratePoles.cs" t="Include" />
+        <e p="MaterialToChildren.cs" t="Include" />
         <e p="Oculus" t="Include">
           <e p="VR" t="Include">
             <e p="Editor" t="Include">
